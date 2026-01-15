@@ -1,4 +1,4 @@
-package com.sugarfit.template.config;
+package com.sugarfit.backend.config;
 
 import org.springframework.context.annotation.Configuration;
 

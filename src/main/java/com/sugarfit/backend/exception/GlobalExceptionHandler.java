@@ -1,4 +1,4 @@
-package com.sugarfit.template.exception;
+package com.sugarfit.backend.exception;
 
 import org.springframework.http.HttpStatus;
 import org.springframework.http.ResponseEntity;

@@ -1,4 +1,4 @@
-package com.sugarfit.template.dto;
+package com.sugarfit.backend.dto;
 
 import jakarta.validation.constraints.NotBlank;
 import jakarta.validation.constraints.NotNull;

@@ -1,4 +1,4 @@
-package com.sugarfit.template.controller;
+package com.sugarfit.backend.controller;
 
 import org.springframework.web.bind.annotation.GetMapping;
 import org.springframework.web.bind.annotation.RestController;
