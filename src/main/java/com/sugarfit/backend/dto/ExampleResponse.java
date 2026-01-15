@@ -1,4 +1,4 @@
-package com.sugarfit.template.dto;
+package com.sugarfit.backend.dto;
 
 public record ExampleResponse(
         String status,

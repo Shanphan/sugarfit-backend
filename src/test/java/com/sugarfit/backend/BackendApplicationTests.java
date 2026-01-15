@@ -1,10 +1,10 @@
-package com.sugarfit.template;
+package com.sugarfit.backend;
 
 import org.junit.jupiter.api.Test;
 import org.springframework.boot.test.context.SpringBootTest;
 
 @SpringBootTest
-class TemplateApplicationTests {
+class BackendApplicationTests {
 
 	@Test
 	void contextLoads() {

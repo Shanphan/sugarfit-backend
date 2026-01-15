@@ -1,8 +1,8 @@
-package com.sugarfit.template.service;
+package com.sugarfit.backend.service;
 
-import com.sugarfit.template.dto.ExampleRequest;
-import com.sugarfit.template.dto.ExampleResponse;
-import com.sugarfit.template.repository.ExampleRequestRepository;
+import com.sugarfit.backend.dto.ExampleRequest;
+import com.sugarfit.backend.dto.ExampleResponse;
+import com.sugarfit.backend.repository.ExampleRequestRepository;
 import org.junit.jupiter.api.Test;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.boot.test.context.SpringBootTest;

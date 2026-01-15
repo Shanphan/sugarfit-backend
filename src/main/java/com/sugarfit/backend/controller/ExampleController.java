@@ -1,8 +1,8 @@
-package com.sugarfit.template.controller;
+package com.sugarfit.backend.controller;
 
-import com.sugarfit.template.dto.ExampleRequest;
-import com.sugarfit.template.dto.ExampleResponse;
-import com.sugarfit.template.service.ExampleService;
+import com.sugarfit.backend.dto.ExampleRequest;
+import com.sugarfit.backend.dto.ExampleResponse;
+import com.sugarfit.backend.service.ExampleService;
 import jakarta.validation.Valid;
 import org.springframework.web.bind.annotation.*;
 

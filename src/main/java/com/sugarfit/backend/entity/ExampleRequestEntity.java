@@ -1,4 +1,4 @@
-package com.sugarfit.template.entity;
+package com.sugarfit.backend.entity;
 
 import jakarta.persistence.*;
 import java.time.Instant;

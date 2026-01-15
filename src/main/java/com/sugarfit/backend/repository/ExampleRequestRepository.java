@@ -1,6 +1,6 @@
-package com.sugarfit.template.repository;
+package com.sugarfit.backend.repository;
 
-import com.sugarfit.template.entity.ExampleRequestEntity;
+import com.sugarfit.backend.entity.ExampleRequestEntity;
 import org.springframework.data.jpa.repository.JpaRepository;
 
 import java.util.UUID;

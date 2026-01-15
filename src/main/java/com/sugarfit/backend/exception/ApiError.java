@@ -1,4 +1,4 @@
-package com.sugarfit.template.exception;
+package com.sugarfit.backend.exception;
 
 public record ApiError(
         String code,

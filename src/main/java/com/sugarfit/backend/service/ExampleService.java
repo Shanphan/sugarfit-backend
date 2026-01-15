@@ -1,9 +1,9 @@
-package com.sugarfit.template.service;
+package com.sugarfit.backend.service;
 
-import com.sugarfit.template.dto.ExampleRequest;
-import com.sugarfit.template.dto.ExampleResponse;
-import com.sugarfit.template.entity.ExampleRequestEntity;
-import com.sugarfit.template.repository.ExampleRequestRepository;
+import com.sugarfit.backend.dto.ExampleRequest;
+import com.sugarfit.backend.dto.ExampleResponse;
+import com.sugarfit.backend.entity.ExampleRequestEntity;
+import com.sugarfit.backend.repository.ExampleRequestRepository;
 import org.springframework.stereotype.Service;
 import org.springframework.transaction.annotation.Transactional;
 
