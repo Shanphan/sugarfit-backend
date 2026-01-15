@@ -7,7 +7,7 @@ import jakarta.validation.Valid;
 import org.springframework.web.bind.annotation.*;
 
 @RestController
-@RequestMapping("/example")
+@RequestMapping("/api/v1/examples")
 public class ExampleController {
 
     private final ExampleService exampleService;
