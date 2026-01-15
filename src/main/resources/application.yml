@@ -1,0 +1,28 @@
+spring:
+  datasource:
+    url: jdbc:h2:mem:testdb
+    driver-class-name: org.h2.Driver
+    username: sa
+    password:
+
+    hikari:
+      pool-name: HikariPool
+      maximum-pool-size: 10
+      minimum-idle: 2
+      auto-commit: true
+
+  jpa:
+    hibernate:
+      ddl-auto: create-drop
+    open-in-view: false
+
+  h2:
+    console:
+      enabled: true
+
+management:
+  endpoints:
+    web:
+      exposure:
+        include: health,info
+
