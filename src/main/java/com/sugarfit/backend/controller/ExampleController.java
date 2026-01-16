@@ -21,7 +21,7 @@ public class ExampleController {
         this.exampleService = exampleService;
     }
 
-    @PostMapping
+    @PostMapping("/example")
     public ExampleResponse process(@Valid @RequestBody ExampleRequest request) {
 
         log.debug("Received /example request");
